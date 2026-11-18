@@ -1,0 +1,51 @@
+.formcontainer{
+    background-color: whitesmoke;
+    width: 450px;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 150px;
+}
+body{
+    background-color: teal;
+}
+.form-btn{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+}
+.form-btn .active{
+    background-color: rgb(5, 70, 90);
+    color: white;
+}
+.form-btn button{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 18px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+}
+.form-login h2{
+    margin-left: 20px;
+}
+.form-login input{
+    margin-left: 20px;
+    width: 90%;
+    border: 1px solid lightgray;
+    color: rgb(20, 20, 20);
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 6px;
+}
+.login-btn{
+    background-color: rgb(5, 70, 90);
+    color: white;
+    border: none;
+    margin: 20px;
+    width: 90%;
+    padding: 6px;
+}
